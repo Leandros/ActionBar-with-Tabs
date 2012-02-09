@@ -14,13 +14,11 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 public class StartActivity extends Activity {
-	public static final String TAG = StartActivity.class.getSimpleName();
 	public static Context appContext;
 	
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
-    	Log.d(TAG, "onCreate | StartActivity");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         appContext = getApplicationContext();
@@ -86,7 +84,6 @@ public class StartActivity extends Activity {
 
 
 class MyTabsListener implements ActionBar.TabListener {
-	public static final String TAG = MyTabsListener.class.getSimpleName();
 	public Fragment fragment;
 	
 	public MyTabsListener(Fragment fragment) {
