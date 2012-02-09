@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, StartActivity!</string>
+    <string name="app_name">Example App</string>
+    <!-- Tab Strings -->
+    
+    <!-- Menu Strings -->
+    <string name="menu_search">Search</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_quit">Quit</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_about">About</string>
+    <string name="menu_share">Share</string>
+</resources>
